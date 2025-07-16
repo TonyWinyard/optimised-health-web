@@ -34,7 +34,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone & WhatsApp",
-      details: ["+44 20 XXXX XXXX", "Available 9AM - 6PM", "Emergency Contact Available"]
+      details: ["+44 7940 016 927", "Available 9AM - 6PM", "Emergency Contact Available"]
     },
     {
       icon: Mail,
