@@ -5,16 +5,12 @@ import { GraduationCap, Award, Heart, Users } from "lucide-react";
 const About = () => {
   const qualifications = [
     "MBBS - Bachelor of Medicine, Bachelor of Surgery",
-    "Longevity Medicine Specialist",
-    "Metabolic Health Certification",
-    "Biomarker Analysis Expert"
+    "Longevity Medicine Specialist"
   ];
 
   const stats = [
     { number: "500+", label: "Patients Helped", icon: Users },
-    { number: "10+", label: "Years Experience", icon: Award },
-    { number: "95%", label: "Satisfaction Rate", icon: Heart },
-    { number: "50+", label: "Health Markers", icon: GraduationCap }
+    { number: "5+", label: "Years Experience", icon: Award }
   ];
 
   return (
@@ -121,23 +117,6 @@ const About = () => {
               </CardContent>
             </Card>
             
-            {/* Certifications */}
-            <Card className="bg-gradient-to-br from-primary/5 to-secondary/5 border-primary/20 p-6">
-              <CardContent className="p-0">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-                    <Award className="w-4 h-4 text-white" />
-                  </div>
-                  <h3 className="font-heading text-lg font-semibold text-foreground">
-                    Board Certified
-                  </h3>
-                </div>
-                <p className="font-body text-sm text-muted-foreground">
-                  Recognised medical professional with specialised training in longevity 
-                  medicine and metabolic health optimization.
-                </p>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </div>

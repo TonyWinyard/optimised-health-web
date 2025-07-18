@@ -27,11 +27,6 @@ const Contact = () => {
 
   const contactInfo = [
     {
-      icon: MapPin,
-      title: "Clinic Location",
-      details: ["Central London", "Private Consultation Rooms", "Easy Transport Links"]
-    },
-    {
       icon: Phone,
       title: "Phone & WhatsApp",
       details: ["+44 7940 016 927", "Available 9AM - 6PM", "Emergency Contact Available"]
@@ -39,12 +34,12 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      details: ["consult@optimisedhealth.co.uk", "Response within 24 hours", "Secure Communication"]
+      details: ["drash@optimisedhealth.co.uk", "Response within 24 hours", "Secure Communication"]
     },
     {
       icon: Clock,
       title: "Consultation Hours",
-      details: ["Monday - Friday: 9AM - 6PM", "Saturday: 10AM - 4PM", "Virtual appointments available"]
+      details: ["Monday - Friday: 9AM - 6PM", "Saturday: 10AM - 4PM", "Virtual consultations available."]
     }
   ];
 
