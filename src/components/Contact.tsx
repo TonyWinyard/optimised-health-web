@@ -144,7 +144,7 @@ const Contact = () => {
                   type="submit" 
                   className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-semibold rounded-full py-3"
                 >
-                  Send Message & Schedule Consultation
+                  Send Message
                 </Button>
                 
                 <p className="font-body text-xs text-muted-foreground text-center">
@@ -191,10 +191,13 @@ const Contact = () => {
                   Access our online booking system for immediate appointment scheduling.
                 </p>
                 <Button 
+                  asChild
                   variant="secondary" 
                   className="bg-white/20 hover:bg-white/30 text-white border-white/30 rounded-full"
                 >
-                  Open Booking System
+                  <a href="https://calendly.com/drash-optimisedhealth/30min" target="_blank" rel="noopener noreferrer">
+                    Open Booking System
+                  </a>
                 </Button>
               </CardContent>
             </Card>

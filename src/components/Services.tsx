@@ -124,7 +124,7 @@ const Services = () => {
               <div className="bg-muted/50 rounded-xl p-6 text-center">
                 <Calendar className="w-8 h-8 text-primary mx-auto mb-3" />
                 <h4 className="font-heading font-semibold text-foreground mb-2">Flexible Appointments</h4>
-                <p className="font-body text-sm text-muted-foreground">In-person or virtual consultations available.</p>
+                <p className="font-body text-sm text-muted-foreground">Virtual consultations available.</p>
               </div>
               
               <div className="bg-muted/50 rounded-xl p-6 text-center">
@@ -133,8 +133,10 @@ const Services = () => {
                 <p className="font-body text-sm text-muted-foreground">Regular follow-ups and plan adjustments.</p>
               </div>
               
-              <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-semibold rounded-full py-3">
-                Schedule Your Consultation
+              <Button asChild className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-semibold rounded-full py-3">
+                <a href="https://calendly.com/drash-optimisedhealth/30min" target="_blank" rel="noopener noreferrer">
+                  Schedule Your Consultation
+                </a>
               </Button>
             </div>
           </div>

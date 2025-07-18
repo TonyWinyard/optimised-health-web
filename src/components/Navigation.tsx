@@ -42,9 +42,12 @@ const Navigation = () => {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button 
+              asChild
               className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold rounded-full px-6"
             >
-              Book Now
+              <a href="https://calendly.com/drash-optimisedhealth/30min" target="_blank" rel="noopener noreferrer">
+                Book Now
+              </a>
             </Button>
           </div>
           
@@ -76,11 +79,14 @@ const Navigation = () => {
                   {item.label}
                 </a>
               ))}
-              <Button 
+               <Button 
+                asChild
                 className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold rounded-full w-fit px-6 mt-4"
-              >
-                Book Now
-              </Button>
+               >
+                <a href="https://calendly.com/drash-optimisedhealth/30min" target="_blank" rel="noopener noreferrer">
+                  Book Now
+                </a>
+               </Button>
             </div>
           </div>
         )}

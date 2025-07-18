@@ -52,7 +52,7 @@ const Footer = () => {
             <h3 className="font-heading font-semibold text-white mb-4">Information</h3>
             <ul className="space-y-2 font-body text-sm text-white/70">
               <li><a href="#about" className="hover:text-accent transition-colors">About Dr Bhandari</a></li>
-              <li><a href="#contact" className="hover:text-accent transition-colors">Book Consultation</a></li>
+              <li><a href="https://calendly.com/drash-optimisedhealth/30min" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Book Consultation</a></li>
               <li><a href="/privacy-policy" className="hover:text-accent transition-colors">Privacy Policy</a></li>
               <li><a href="/terms-of-service" className="hover:text-accent transition-colors">Terms of Service</a></li>
             </ul>
