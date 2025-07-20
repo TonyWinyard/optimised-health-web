@@ -5,7 +5,7 @@ import { GraduationCap, Award, Heart, Users } from "lucide-react";
 const About = () => {
   const qualifications = [
     "MBBS - Bachelor of Medicine, Bachelor of Surgery",
-    "Longevity Medicine Specialist"
+    "Special interest in longevity medicine"
   ];
 
   const stats = [

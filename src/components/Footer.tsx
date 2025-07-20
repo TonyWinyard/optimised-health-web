@@ -16,7 +16,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="font-body text-sm text-white/80 mb-6 max-w-md leading-relaxed">
-              Medical Doctor specialising in longevity medicine. Helping individuals 
+              Medical doctor with a special interest in longevity medicine. Helping individuals 
               optimise their health span through evidence-based interventions and 
               personalised care.
             </p>
